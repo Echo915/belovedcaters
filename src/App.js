@@ -20,7 +20,7 @@ function App() {
 
       {/* App Routes */}
       <Routes>
-        <Route path='/belovedcaters' exact element={<HomePage />} />
+        <Route path='/belovedcaters/' exact element={<HomePage />} />
         <Route path='/belovedcaters/products' element={<Products />} />
         <Route path='/belovedcaters/services' element={<Services />} />
         <Route path='/belovedcaters/contact' element={<Contact />} />

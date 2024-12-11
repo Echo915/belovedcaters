@@ -9,10 +9,10 @@ const MainNavigation = () => {
             </button>
             <div className="collapses navbar-collapse" id="navbarSupportedContent">
                 <div className="navbar-nav px-3">
-                    <Link to={"/"} className="nav-link active text-primary text-uppercase fw-semibold" aria-current="page" href="#">Home</Link>
-                    <Link to={"products"} className="nav-link text-primary text-uppercase fw-semibold" href="#">Products</Link>
-                    <Link to={"services"} className="nav-link text-primary text-uppercase fw-semibold" href="#">Services</Link>
-                    <Link to={"contact"} className="nav-link text-primary text-uppercase fw-semibold">Contact</Link>
+                    <Link to={"/belovedcaters/"} className="nav-link active text-primary text-uppercase fw-semibold" aria-current="page" href="#">Home</Link>
+                    <Link to={"/belovedcaters/products"} className="nav-link text-primary text-uppercase fw-semibold" href="#">Products</Link>
+                    <Link to={"/belovedcaters/services"} className="nav-link text-primary text-uppercase fw-semibold" href="#">Services</Link>
+                    <Link to={"/belovedcaters/contact"} className="nav-link text-primary text-uppercase fw-semibold">Contact</Link>
                 </div>
                 <div className="nav-item py-3">
                     <form className="d-flex nav-item" role="search">
