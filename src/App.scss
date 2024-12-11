@@ -1,0 +1,88 @@
+$primary: #5D5A88; 
+$secondary: #F46036;
+$tertiary: #E8C547;
+
+// html, body {
+//   font-family: 'DM Sans';
+// }
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.h-40 {
+  height: 40% !important;
+}
+
+.h-30 {
+  width: 30% !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-secondary {
+  color: $secondary !important;
+}
+
+.text-tertiary {
+  color: $tertiary !important;
+}
+
+.fw-semibold {
+  font-weight: 500;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-primary-light {
+  background-color: rgba($color: $primary, $alpha: 0.2) !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.08rem rgba(13, 110, 253, .25);
+}
+
+.border-primary {
+  border-color: $primary !important;
+}
+
+.rotate-infinite {
+  // animation: rotate infinite linear;
+  animation-name: rotate;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+// Rotate using @keyframes
+@keyframes rotate{
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50%{
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  100%{
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
