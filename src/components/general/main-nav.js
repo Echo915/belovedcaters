@@ -7,7 +7,7 @@ const MainNavigation = () => {
             <button className="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div className="collapses navbar-collapse" id="navbarSupportedContent">
                 <div className="navbar-nav px-3">
                     <Link to={"/"} className="nav-link active text-primary text-uppercase fw-semibold" aria-current="page" href="#">Home</Link>
                     <Link to={"products"} className="nav-link text-primary text-uppercase fw-semibold" href="#">Products</Link>
