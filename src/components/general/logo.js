@@ -6,7 +6,7 @@ const Logo = () => {
         <>
             {/* Logo */}
             {/* <div id="logo"> */}
-                <Link className="navbar-brand d-flex align-items-center" to={"/"}><img className="responsive" src={logo} alt="logo" style={{width: 30}} /> <span className="h1 text-primary"> BelovedCaters</span></Link>
+                <Link className="navbar-brand d-flex align-items-center" to={"/belovedcaters/"}><img className="responsive" src={logo} alt="logo" style={{width: 30}} /> <span className="h1 text-primary"> BelovedCaters</span></Link>
             {/* </div> */}
         </>
     );
