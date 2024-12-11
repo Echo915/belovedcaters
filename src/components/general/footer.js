@@ -25,12 +25,12 @@ const Footer = () => {
                         </div>
                         <div className="col-12 row position-absolute m-auto pt-5">
                             <div className="col-6">
-                                <Link className="p-1 text-primary nav-link" to={"/"} >Home</Link>
-                                <Link className="p-1 text-primary nav-link" to={"/contact"} >Contact</Link>
+                                <Link className="p-1 text-primary nav-link" to={"/belovedcaters/"} >Home</Link>
+                                <Link className="p-1 text-primary nav-link" to={"/belovedcaters/contact"} >Contact</Link>
                             </div>
                             <div className="col-6">
-                                <Link className="p-1 text-primary nav-link" to={"/products"} >Products</Link>
-                                <Link className="p-1 text-primary nav-link" to={"/services"} >Services</Link>
+                                <Link className="p-1 text-primary nav-link" to={"/belovedcaters/products"} >Products</Link>
+                                <Link className="p-1 text-primary nav-link" to={"/belovedcaters/services"} >Services</Link>
                             </div>
                         </div>
                     </div>

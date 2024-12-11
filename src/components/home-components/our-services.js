@@ -40,7 +40,7 @@ const ServicesSection = ({services}) => {
                     </div> */}
                 </div>
             </div>
-            <center><Link className='text-center fw-bold text-info p-5' to={"/services"}>View More</Link></center>
+            <center><Link className='text-center fw-bold text-info p-5' to={"/belovedcaters/services"}>View More</Link></center>
         </div>
     );
 };
