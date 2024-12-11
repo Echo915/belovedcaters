@@ -20,10 +20,10 @@ function App() {
 
       {/* App Routes */}
       <Routes>
-        <Route path='/' exact element={<HomePage />} />
-        <Route path='/products' element={<Products />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/belovedcaters' exact element={<HomePage />} />
+        <Route path='/belovedcaters/products' element={<Products />} />
+        <Route path='/belovedcaters/services' element={<Services />} />
+        <Route path='/belovedcaters/contact' element={<Contact />} />
       </Routes>
 
       {/* Footer */}
